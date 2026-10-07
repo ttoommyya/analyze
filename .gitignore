@@ -1,0 +1,70 @@
+# Python environments and build artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+
+# Only the data documentation is tracked (including future subdirectories).
+/data/*
+!/data/README.md
+
+# Generated analysis artifacts
+/outputs/
+/results/
+/figures/
+/reports/
+*.log
+.ipynb_checkpoints/
+
+# Common research data formats: protect files outside data/ too.
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.h5ad
+*.loom
+*.rds
+*.RData
+*.fastq
+*.fq
+*.fasta
+*.fa
+*.bam
+*.sam
+*.cram
+*.vcf
+*.mtx
+*.gz
+*.zip
+*.tif
+*.tiff
+*.czi
+*.nd2
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+*.local.toml
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
